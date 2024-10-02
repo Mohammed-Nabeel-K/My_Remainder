@@ -6,7 +6,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'PAY N TRACK',
+      title: 'MY REMAINDER',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
@@ -44,7 +44,7 @@ class _SplashScreenState extends State<SplashScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              'My Hostel',
+              'My Remainder',
               style: TextStyle(
                 fontSize: 44,
                 fontWeight: FontWeight.bold,
