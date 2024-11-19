@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'components/MyButtonBig.dart';
+import 'pages/AddRemainder.dart';
 
 
 class homePage extends StatelessWidget {
@@ -12,7 +14,14 @@ class homePage extends StatelessWidget {
         child: Center(
           child: Column(
             children: [
-              Text("something")
+              MyBigButton(
+                onTap: (){
+                 Navigator.of(context).push(MaterialPageRoute(builder: (context) => addRemainderPage(),));
+                },
+                name: "Make a Remainder",
+              ),
+              
+              
                 
 
               ]
